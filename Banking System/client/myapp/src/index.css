@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(157, 210, 161);
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0.5rem;
+  border-bottom: 1px solid #000;
+}
+
+.add {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.todo {
+  position: relative;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 10px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #000;
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #000;
+}
+
+.text {
+  background-color: black;
+}
+
+::placeholder {
+  color: rgb(34, 32, 32);
+  opacity: 1;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: space-between;
+  height: 161px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.button-style {
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.customer-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.customer-item {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.transfer-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.input-container {
+  width: 30%;
+  margin: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+  text-align: center;
+}
+.response-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
